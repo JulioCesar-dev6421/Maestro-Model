@@ -4,7 +4,7 @@
   "trained_languages": ["pt-BR"],
   "version": 1,
   
-  "model": "ma_esx_tro.tflite",
+  "model": "./ma_esx_tro.tflite",
   
   "micro": {
     "probability_cutoff": 0.5,
@@ -17,4 +17,5 @@
   "metadata": {
     "description": "Modelo TFLite 'maestro' personalizado e otimizado para o M5Stack ATOM Echo (memória limitada do ESP32 PICO)."
   }
+
 }
