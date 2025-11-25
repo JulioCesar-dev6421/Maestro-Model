@@ -3,7 +3,7 @@
   "wake_word": "maestro",
   "author": "julio",
   "website": "www.example.com",
-  "model": "ma_esx_tro.tflite",
+  "model": "./ma_esx_tro.tflite",
   "version": 1,
   "micro": {
     "probability_cutoff": 0.97,
@@ -13,3 +13,4 @@
     "minimum_esphome_version": "2024.7"
   }
 }
+
