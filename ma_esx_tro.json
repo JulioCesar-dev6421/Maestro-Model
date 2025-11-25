@@ -1,21 +1,15 @@
 {
+  "type": "micro",
   "wake_word": "maestro",
-  "author": "Julio",
-  "trained_languages": ["pt-BR"],
+  "author": "julio",
+  "website": "www.example.com",
+  "model": "ma_esx_tro.tflite",
   "version": 1,
-  
-  "model": "./ma_esx_tro.tflite",
-  
   "micro": {
-    "probability_cutoff": 0.5,
-    "sliding_window_size": 128,
-    "feature_step_size": 16,
-    "tensor_arena_size": 120000, 
-    "minimum_esphome_version": "2024.6.0"
-  },
-  
-  "metadata": {
-    "description": "Modelo TFLite 'maestro' personalizado e otimizado para o M5Stack ATOM Echo (memória limitada do ESP32 PICO)."
+    "probability_cutoff": 0.97,
+    "sliding_window_size": 5,
+    "feature_step_size": 10,
+    "tensor_arena_size": 22860,
+    "minimum_esphome_version": "2024.7"
   }
-
 }
